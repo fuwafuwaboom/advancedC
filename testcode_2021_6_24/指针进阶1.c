@@ -45,7 +45,12 @@ int main()
 	char str1[] = "hello bit.";
 	char str2[] = "hello bit.";
 	char* str3 = "hello bit.";//hello bit 是常量字符串
-	char* str4 = "hello bit.";
+	//*str3 = 'w'; 这样写就会报错
+	char* str4 = "hello bit.";//正是因为常量字符串不可更改的原因
+	//所以这样的常量只会在同一块空间（节省内存）而一个空间又唯一指向地址
+
+	//所以我们习惯用const修饰存放常量的指针
+	//const char* str = "hello bit.";
 
 	if (str1 == str2)
 		printf("str1 and str2 are same\n");
