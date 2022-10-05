@@ -1,0 +1,5 @@
+﻿  memmove函数.c
+E:\编程\Github\C\advancedC\2022_10_4_memery function\memmove函数.c(19,3): warning C4033: “my_memmove”必须返回值
+E:\编程\Github\C\advancedC\2022_10_4_memery function\memmove函数.c(28,3): warning C4033: “my_memmove”必须返回值
+E:\编程\Github\C\advancedC\2022_10_4_memery function\memmove函数.c(30): warning C4716: “my_memmove”: 必须返回一个值
+  2022_10_4_memery function.vcxproj -> E:\编程\Github\C\advancedC\2022_10_4_memery function\Debug\2022_10_4_memery function.exe
